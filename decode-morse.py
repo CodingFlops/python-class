@@ -25,13 +25,15 @@ x = "-..- "
 y = "-.-- "
 z = "--.. "
 
-decode = "..-. "   # f
-decode += ".-.. "  # l
-decode += "--- "   # o
-decode += ".-. "   # r
-decode += ".. "    # i
-decode += ".- "    # a
-decode += "-. "    # n
+#decode = "..-. "   # f
+#decode += ".-.. "  # l
+#decode += "--- "   # o
+#decode += ".-. "   # r
+#decode += ".. "    # i
+#decode += ".- "    # a
+#decode += "-. "    # n
+
+decode = "..-. .-.. --- .-. .. .- -. "
 
 def decodeMorse(decode):
     if len(a)<=len(decode) and decode[:len(a)] == a:
