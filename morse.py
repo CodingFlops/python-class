@@ -50,55 +50,55 @@ sentence = input("type in a sentence ").lower()
 for letter in sentence:
     if letter == "a":
         morse(a)
-    if letter == "b":
+    elif letter == "b":
         morse(b)
-    if letter == "c":
+    elif letter == "c":
         morse(c)
-    if letter == "d":
+    elif letter == "d":
         morse(d)
-    if letter == "e":
+    elif letter == "e":
         morse(e)
-    if letter == "f":
+    elif letter == "f":
         morse(f)
-    if letter == "g":
+    elif letter == "g":
         morse(g)
-    if letter == "h":
+    elif letter == "h":
         morse(h)
-    if letter == "i":
+    elif letter == "i":
         morse(i)
-    if letter == "j":
+    elif letter == "j":
         morse(j)
-    if letter == "k":
+    elif letter == "k":
         morse(k)
-    if letter == "l":
+    elif letter == "l":
         morse(l)
-    if letter == "m":
+    elif letter == "m":
         morse(m)
-    if letter == "n":
+    elif letter == "n":
         morse(n)
-    if letter == "o":
+    elif letter == "o":
         morse(o)
-    if letter == "p":
+    elif letter == "p":
         morse(p)
-    if letter == "q":
+    elif letter == "q":
         morse(q)
-    if letter == "r":
+    elif letter == "r":
         morse(r)
-    if letter == "s":
+    elif letter == "s":
         morse(s)
-    if letter == "t":
+    elif letter == "t":
         morse(t)
-    if letter == "u":
+    elif letter == "u":
         morse(u)
-    if letter == "v":
+    elif letter == "v":
         morse(v)
-    if letter == "w":
+    elif letter == "w":
         morse(w)
-    if letter == "x":
+    elif letter == "x":
         morse(x)
-    if letter == "y":
+    elif letter == "y":
         morse(y)
-    if letter == "z":
+    elif letter == "z":
         morse(z)
 
     if letter == " ":
