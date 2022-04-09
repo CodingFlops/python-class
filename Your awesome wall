@@ -1,0 +1,20 @@
+print("Made by coding flops")
+user_input_length = int(input("How long do you want the wall to be in inches? "))
+user_input_big_bricks = int(input("How many big bricks do you want for your wall? "))
+user_input_small_bricks = int(input("How many small bricks do you want for your wall? "))
+users_wall = 0
+while user_input_big_bricks > 0:
+    if user_input_length < users_wall + 5:
+        break
+    users_wall = users_wall + 5
+    user_input_big_bricks = user_input_big_bricks - 1
+while user_input_small_bricks > 0:
+    if user_input_length < users_wall + 1:
+        break
+    users_wall = users_wall + 1
+    user_input_small_bricks = user_input_small_bricks - 1
+    print (users_wall)
+if users_wall ==  user_input_length:
+    print("Your wall is done and great!!!")
+else:
+    print("Your wall is unfinished sorry")
