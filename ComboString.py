@@ -1,3 +1,6 @@
-short = input("Write a word (It is recommened to write a short word) ")
-long = input("Type in a word that is longer than the last word you typed ")
-print("your combo string is (drumroll please)... " + short + long + short)
+word = input("Write a word ")
+word2 = input("Type in a word ")
+if len(word) > len(word2):
+    print("your combo string is (drumroll please)... " + word2 + word + word2)
+else:
+    print("your combo string is (drumroll please)... " + word + word2 + word)
