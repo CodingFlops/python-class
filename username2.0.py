@@ -1,12 +1,9 @@
-bd = 0
 usrnm = input("Enter your username ").upper()
 if len(usrnm) < 6:
     print("USENAME INVALID")
-    bd = 1
-if "_" not in usrnm and bd == 0:
+elif "_" not in usrnm:
     print("USENAME INVALID")
-    bd = 1
-if bd == 0:
+else:
     if "_S" in usrnm:
         print("You are a student")
         if "01" in usrnm:
