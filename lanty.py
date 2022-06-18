@@ -3,8 +3,7 @@ lant = input("Now choose your direction like this: \ (Type r) or this | (Type d)
 index = 0
 space = ""
 if lant == "l":
-    for i in range (len(xedni)):
-        space = space + " "
+    space = " "*len(xedni)
 print("Your word is " + xedni)
 for i in range(len(xedni)):
     if lant == "r":
