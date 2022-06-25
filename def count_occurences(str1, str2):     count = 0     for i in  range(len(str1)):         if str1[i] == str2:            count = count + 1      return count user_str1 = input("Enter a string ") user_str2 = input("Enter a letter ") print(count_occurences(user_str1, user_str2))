@@ -5,5 +5,5 @@ def count_occurences(str1, str2):
            count = count + 1 
     return count
 user_str1 = input("Enter a string ")
-user_str2 = input("Enter a letter ")
+user_str2 = input("Enter another string ")
 print(count_occurences(user_str1, user_str2))
