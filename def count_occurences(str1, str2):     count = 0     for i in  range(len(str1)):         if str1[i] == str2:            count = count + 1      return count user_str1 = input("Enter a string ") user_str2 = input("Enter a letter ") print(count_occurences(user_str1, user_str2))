@@ -1,7 +1,7 @@
 def count_occurences(str1, str2):
     count = 0
     for i in  range(len(str1)):
-        if str1[i] == str2:
+        if str1[i:len(str2) + i] == str2:
            count = count + 1 
     return count
 user_str1 = input("Enter a string ")
