@@ -1,0 +1,10 @@
+num = input("Enter a random number ")
+con = False
+index = 0
+for i in range(len(num)):
+    if index + 1 < len(num) and num[index] == num[index + 1] and not con:
+        print("This number has consecutive digits")
+        con = True
+    index = index + 1
+if not con:
+    print("This number does not have consecutive digits")
