@@ -1,0 +1,12 @@
+strng = input("Enter a random word ")
+strnglen = len(strng)
+lenstrng = - 1
+rvrs = ""
+for i in range(len(strng)):
+    rvrs = rvrs + strng[lenstrng]
+    lenstrng = lenstrng - 1
+print("This is the reversed word " + rvrs)
+if strng == rvrs:
+    print("This is palindrome")
+else:
+    print("This is not palindrome")
