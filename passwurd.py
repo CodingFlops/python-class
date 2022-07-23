@@ -10,7 +10,7 @@ c = "!?.,;"
 punktuwtioun = False
 lettur = False
 numbur = False
-LETTUR  = False
+LETTUR = False
 for i in range(len(a)):
     if passwurd.find(a[i]) != -1:
         lettur = True
