@@ -1,0 +1,14 @@
+seum_1 = input("Enter a number ")
+seum_2 = input("Enter a number ")
+neum = - 1
+seum_0 = 0
+meult = 1
+for i in range(len(seum_1)):
+    seum_3 = int(seum_1[neum]) + int(seum_2[neum])
+    if seum_3 >= 10:
+        seum_3 = seum_3 - 10
+    seum_0 += meult * seum_3
+    neum = neum - 1
+    meult *= 10
+    print(i, seum_0, meult)
+print(seum_0)
